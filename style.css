@@ -24,7 +24,7 @@ html{
 
 body {
   overflow-x: hidden;
-  background-image: url(web-background2.png);
+  background-image: url(websiteBackground.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -34,7 +34,7 @@ body {
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(web-background2.png);
+    background-image: url(websiteBackground.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -413,9 +413,9 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
   #header{
-    background-image: url(phone-background.png);
+    background-image: url(websiteBackground.jpg);
     background-size: cover;
-    background-position: center;
+    background-position:flex;
     background-attachment: fixed;
   }
   .header-text{
